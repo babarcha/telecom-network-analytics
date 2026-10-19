@@ -1,0 +1,28 @@
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local editor settings
+.vscode/
+
+# Generated datasets
+data/raw/*.csv
+data/processed/*.csv
+
+# Generated reports
+reports/*.html
+reports/*.pdf
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables and secrets
+.env
+.env.*
